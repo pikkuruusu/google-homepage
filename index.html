@@ -12,13 +12,14 @@
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272px" height="92px">
         
         </div>
-        <div id="search-form-box">
-            <input id="search-form">
-        </div>
-        <div id="search-buttons-box">
-            <input type="button" value="Sök på Google"><input type="button" value="Jag har tur">
-        </div>
-        
+        <form action="https://google.com/search" method="get">
+            <div id="search-form-box">
+                <input id="search-form" type="text" name="q">
+            </div>
+            <div id="search-buttons-box">
+                <input type="submit" value="Sök på Google"><input type="submit" value="Jag har tur">
+            </div>
+        </form>
         
     </body>
 </html>
