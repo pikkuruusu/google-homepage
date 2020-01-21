@@ -40,6 +40,22 @@ ul#nav li {
     font-size: 13px;
 }
 
+ul#footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul#footer-links li.left {
+    float: left;
+}
+
+ul#footer-links li.right {
+    float: right;
+}
+
+
 #search-form {
     width: 447px;
     height: 34px;
