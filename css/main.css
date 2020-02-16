@@ -31,13 +31,36 @@ body {
 ul#nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 10px 0 0;
     overflow: hidden;
 }
 
 ul#nav li {
     float:right;
     font-size: 13px;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+ul#nav li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+ul#nav li a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+ul#nav li button {
+    background-color: #4387fd;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 10px;
+    margin-top: -10px;
 }
 
 ul#footer-links {
