@@ -63,6 +63,15 @@ ul#nav li button {
     margin-top: -10px;
 }
 
+#top-footer {
+    padding: 10px 0px 10px 25px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#bottom-footer {
+    padding: 10px 25px 10px 25px;
+}
+
 ul#footer-links {
     list-style-type: none;
     margin: 0;
